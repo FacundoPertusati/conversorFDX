@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo1"> Conversor XFDP</h1>
+
+    </header>
+
+   
+<form action="#server" class="formulario">
+    
+
+<input type="number"min="1" name="cantidadDinero" id="cantidadDinero" class="cantidadDinero">
+
+   <p class="oracion">A que moneda quieres convertirlo</p>
+
+<select name="selector2" id="selector2" class="selector2"></select>
+
+<p class="oracion">selecione cuanto porsentaje de impuesto desea agregarle </p>
+
+<select name="comision" id="comision" class="comision" placeholder="impuesto"></select>
+
+<button id="boton"type="button" class="boton">convertir</button>
+<h2 id="resultado">0$</h2>
+
+
+
+
+
+
+
+
+
+</form>
+
+<div>
+    <button class="historial">historial</button>
+
+    <section class="lista"></section>
+    
+    <section id="money">
+        <button id="btn">divisas</button>
+    </section>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="js.js"></script>
+
+
+
+
+
+</body>
+</html>

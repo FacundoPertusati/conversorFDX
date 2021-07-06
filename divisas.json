@@ -1,0 +1,36 @@
+[
+    {
+        "nombre" : "Dolar Estadunidence",
+        "precio" : 97 
+    },
+
+    {
+        "nombre" : "Real" ,
+        "precio" : 17
+    },
+
+    {
+        "nombre" : "Euro",
+        "precio" : 113.72
+    },
+
+
+    {
+        "nombre" : "Yen Japones"  ,
+        "precio" : 0.86
+    },
+
+    {
+        "nombre" : " Libra" ,
+        "precio" : 132.85
+    },
+
+    {
+        "nombre" : "  Franco Suizo"  ,
+        "precio" : 103.98
+    },
+    {
+        "nombre" : "Corona"  ,
+        "precio" : 11.20 
+    }
+]

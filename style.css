@@ -1,0 +1,150 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(154, 176, 191, 0.864);
+  
+  
+
+       
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;  
+    background-color: rgb(128, 127, 127);
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    border-radius: 2rem;
+}
+
+.titulo1{
+    margin-top: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+    color: white;
+}
+.selector1{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #337b3185;;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    border-color: white;
+
+}
+.cantidadDinero{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0 0 0 / 40%);
+    color: rgb(255 255 255);
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 2rem;
+   
+    
+
+
+}
+
+.selector2{
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #2cb587c7;
+
+
+}
+
+.comision{
+    width: 7rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff70;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    border-color: white;
+    
+
+}
+
+.boton{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0 0 0 / 40%);;
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 4rem;
+    border-color: white;
+
+}
+.oracion{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: overline;
+
+}
+
+h2{
+    font-size: 3rem;
+    background-color: #791818d1;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    color: white;
+    font-family: fangsong;
+}
+ 
+.lista{
+    display: none;
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Staatliches', cursive;
+    border-top: 1rem;
+    border: black;
+    
+
+}
+.historial{
+    margin-left: 30rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #2cb587c7;
+
+}
+#btn{
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #2cb587c7;
+
+
+}
+#money{
+    margin-left: 30rem;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 10rem;
+}
+
+.precio{
+    margin-left: 7rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.nombre{
+    font-size: 2.3rem;
+}
