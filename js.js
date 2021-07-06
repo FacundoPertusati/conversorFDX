@@ -64,8 +64,7 @@ function renderLista() {
                                             <p>Total: $ ${item.operacion}</p>
                                             <p>Impuesto aplicado: ${item.impuesto}</p>
                                         </div>`).join(''));
-    // lista.map genera un array nuevo a partir del resultado de ejecutar la función entre ().
-    // Ejemplo: [1,2,3,4].map( numero => numero * 2 ) ---> [2,4,6,8]
+    
 }
 
 // Función para rellenar el dropdown del formulario
